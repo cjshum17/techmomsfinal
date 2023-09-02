@@ -1,47 +1,237 @@
-.season {
-    text-align: center;
-    background-color: gray; 
-    /* width: 200px; */
-    height: 200px;
-    /* margin: 20px; */
-   
-}
-.flex-container {
-    display: flex;
-    flex-wrap:wrap;
-    margin-top: 30px;
+.classic-pic {
+    width: 30%;
+    margin: 1%; 
 }
 
-.flex-container {
+.navigation-bar {
     
-    width: 40%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items:center;
+    list-style-type: none;
+    background-color: #fcdbbe;
+    
+}
+main {
+    background-color: #ffffa3;
+}
+.welcome {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+li {
+    text-align: left;
+}
+.season {
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: gray; 
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+   
+}
+.seasons-grid {
+    display:flex;
+    flex-direction: column;
     margin: 10px;
+    justify-content: center;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+    padding-bottom: 50px;
   }
 
 .spring {
     background-color: lightgreen;
 }
+
+.spring.block.image {
+    
+    display: inline-block;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    width: 40%;
+    height: 40%;
+    background-color: lightgreen
+}
+
 .fall {
     background-color: orange;
 }
 .summer {
     background-color: lightblue;
 }
-img {
-    width: 30%;
-    margin: 1%; 
-}
+
 a {
-    font-size: 25px;
-    
-    margin-left: 10%;
+    text-align:center; 
 }
 
 .month-page {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     justify-content: center;
+    background-color: #ffffa3;
+}
+
+.top-row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom-row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title {
+    background-color: white;
+}
+.logo-box {
+    
+    background-color: #f2f7ff;
+    padding-left: 3%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+
+.material-symbols-outlined {
+    position: relative;
+    top: 100px;
+    left: -50px;
+    font-variation-settings: 
+    'height' 100px, 
+    ;
+}
+.center {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 20%;
+    padding: 30px;
+  }
+  
+  .abackgroundbook {
+    display: flex;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 25%;
+    height: 37%;
+  }
+  .bbackgroundbook {
+    display: flex;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: text-top;
+    width:25%;
+    justify-content: center;
+    height: 37%;
+}
+  
+  .cbackgroundbook {
+    display: flex;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: text-bottom;
+    width:25%;
+    justify-content: center;
+    height: 37%;
+  }
+  
+  .dbackgroundbook {
+    display: flex;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: sub;
+    width:25%;
+    height: 37%;
+    justify-content: center;
+  }
+  
+  .ebackgroundbook {
+    display: flex;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15%;
+    vertical-align: super;
+    width:25%;
+    height: 37%;
+    justify-content: center;
+}
+
+.row {
+    background-color: #fcdbbe;
+}
+
+.column {
+    background-color: #fcdbbe;
+}
+
+.about{
+    background-color: lightgrey;
+    color: blue;
+  }
+  
+.seasonpicture {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.month-picture {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.about-photo {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    height: 66%;
+    background-color: #6bb492
+}
+
+.why-page {
+    display:flex;
+    background-color: #fcdbbe;
+}
+
+.background-books-page {
+    background-color: #ffffa3;
 }
