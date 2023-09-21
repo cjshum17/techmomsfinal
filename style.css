@@ -3,6 +3,10 @@
     margin: 1%; 
 }
 
+.italic {
+    font-style: italic;
+  }
+
 .navigation-bar {
 
     font-size: 2.5em;
@@ -13,15 +17,16 @@
     align-items:center;
     list-style-type: none;
     background-color: #fcdbbe;
-    
-}
-main {
+    }
+
+    main {
     background-color: #ffffa3;
 }
+
 .welcome {
     font-family: Arial, Helvetica, sans-serif;
-
 }
+
 li {
     text-align: left;
 }
